@@ -1,0 +1,22 @@
+stages:
+  - test
+
+playwright_tests:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.43.1-jammy  
+  script:
+    - npm ci
+    - npx playwright install --with-deps  
+    - npx playwright test
+  variables:
+    LT_USERNAME: $LT_USERNAME
+    LT_ACCESS_KEY: $LT_ACCESS_KEY
+  artifacts:
+    when: always
+    paths:
+      - test-results/
+    reports:
+      junit: test-results/results.xml
+  cache:
+    paths:
+      - node_modules/
