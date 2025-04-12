@@ -10,7 +10,7 @@ This project contains Playwright-based end-to-end tests for two web applications
 - [Getting Started](#rocket-getting-started)
 - [Running the Tests](#runner-running-the-tests)
 - [GitLab Pipeline](#gitlab-pipeline)
-- [LambdaTest Automation Username](#username)
+- [LambdaTest Username](#username)
 
 
 ---
