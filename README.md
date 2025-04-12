@@ -9,6 +9,7 @@ This project contains Playwright-based end-to-end tests for two web applications
 - [Technologies Used](#-technologies-used)
 - [Getting Started](#rocket-getting-started)
 - [Running the Tests](#runner-running-the-tests)
+- [GitLab Pipeline](#gitlab-pipeline)
 - [Screenshots & Logs](#camera_screenshots--logs)
 - [Author](#bust_in_silhouette-author)
 
@@ -123,4 +124,8 @@ npx playwright install
 ```bash
 npx playwright test
 ```
+
+## 🌐 GitLab Pipeline
+You can view the CI/CD pipeline results for this project on GitLab: https://gitlab.com/lambdatest3805615/LambdaTest-Assignment/-/jobs/9701983170
+
 
