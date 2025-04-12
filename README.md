@@ -15,7 +15,29 @@ This project contains Playwright-based end-to-end tests for two web applications
 ---
 
 ## :file_folder: Project Structure
-lambdaTest-automation/ ├── node_modules/ # Project dependencies ├── test-results/ # Test result outputs (screenshots, traces, logs) │ ├── test1/ # Login tests │ ├── invalidLogin.spec.ts # Invalid login test case │ └── validLogin.spec.ts # Valid login test case │ ├── test2/ # JavaScript alerts handling │ ├── jsAlert.spec.ts # JS alert test │ ├── jsConfirm.spec.ts # JS confirm alert test │ └── jsPrompt.spec.ts # JS prompt alert test │ ├── .env # Environment variables (e.g., credentials, keys) ├── .gitignore # Git ignored files ├── lambdatest-setup.ts # LambdaTest configuration setup ├── package.json # Project metadata and scripts ├── package-lock.json # Lock file for npm dependencies ├── playwright.config.ts # Playwright configuration file └── README.md # Project documentation (this file)
+
+lambdaTest-automation
+│
+├── node_modules/                # Installed dependencies
+├── test-results/                # Output results (screenshots, logs, traces)
+│
+├── test1/                       # Login test cases
+│   ├── invalidLogin.spec.ts     # Invalid login test
+│   └── validLogin.spec.ts       # Valid login test
+│
+├── test2/                       # JavaScript alerts test cases
+│   ├── jsAlert.spec.ts          # JS Alert test
+│   ├── jsConfirm.spec.ts        # JS Confirm test
+│   └── jsPrompt.spec.ts         # JS Prompt test
+│
+├── .env                         # Environment variables (sensitive data/config)
+├── .gitignore                   # Files/folders to ignore in Git
+├── lambdatest-setup.ts          # LambdaTest-specific setup/config
+├── package.json                 # Project configuration and scripts
+├── package-lock.json            # Exact version locks for dependencies
+├── playwright.config.ts         # Playwright configuration file
+└── README.md                    # Project documentation
+
 
 ---
 
