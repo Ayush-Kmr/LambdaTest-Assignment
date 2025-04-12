@@ -76,8 +76,10 @@ git clone https://github.com/your-username/playwright-automation.git
 cd playwright-automation
 npm install
 npx playwright install
+ ```
 
----
 ## 🏃 Running the Tests
 ```bash
 npx playwright test
+```
+
