@@ -114,7 +114,7 @@ lambdaTest-automation
 
 ```bash
 git clone https://github.com/your-username/playwright-automation.git
-cd playwright-automation
+cd lambdaTest-automation
 npm install
 npx playwright install
  ```
