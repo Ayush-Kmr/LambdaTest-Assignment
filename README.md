@@ -99,6 +99,7 @@ lambdaTest-automation
 - [Playwright](https://playwright.dev/) - End-to-end browser automation
 - TypeScript - For type-safe scripting
 - Node.js - Runtime environment
+- Lambdatest - Web Automation Tool
 
 ---
 
