@@ -15,9 +15,7 @@ This project contains Playwright-based end-to-end tests for two web applications
 ---
 
 ## :file_folder: Project Structure
-
-## 📁 Project Structure
-
+```bash
 lambdaTest-automation  
 │  
 ├── node_modules/  
@@ -57,7 +55,7 @@ lambdaTest-automation
 │  
 └── README.md  
     └── # Project documentation
-
+```
 
 
 ---
